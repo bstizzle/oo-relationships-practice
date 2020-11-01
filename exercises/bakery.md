@@ -17,37 +17,37 @@ Create the necessary methods to connect these classes.  **You should do all the 
 
 #### Bakery
 
-- #ingredients
+- #ingredients #DONE
   - should return an array of ingredient objects for the bakery's desserts
-- #desserts
+- #desserts #DONE
   - should return an array of dessert objects the bakery makes
-- #average_calories
+- #average_calories #DONE
   - should return a float totaling the average number of calories for the desserts sold at this bakery
-- .all
+- .all #DONE
   - should return an array of all bakeries
-- #shopping_list
+- #shopping_list #DONE BUT NEEDS FORMATTING
   - should return a string of names for ingredients for the bakery
 
 #### Desserts
 
-- #ingredients
+- #ingredients #DONE
   - should return an array of `Ingredient` objects for the dessert
-- #bakery
+- #bakery #DONE, in reader macro
   - should return the `Bakery` object for the dessert
-- #calories
+- #calories #DONE
   - should return a float totaling all the calories for all the ingredients included in that dessert
-- .all
+- .all #DONE
   - should return an array of all dessert objects
 
 #### Ingredients
 
-- #dessert
+- #dessert #DONE
   - should return an array of all dessert objects that use this ingredient
-- #bakeries
+- #bakeries #DONE
   - should return the bakery objects for the bakeries that use that ingredient
-- .all
+- .all #DONE
   - should return an array of all ingredients
-- .find_all_by_name(ingredient)
+- .find_all_by_name(ingredient) #DONE
   - should take a string argument and return an array of all ingredients that
     include that string in their name
     - .find_all_by_name('chocolate') might return ['chocolate sprinkles',
